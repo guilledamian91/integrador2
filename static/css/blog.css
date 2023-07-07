@@ -1,3 +1,9 @@
+.consejos{
+	margin-left: inherit;
+	margin-right: auto;
+  
+}
+
 .blog {
     min-height: 500px;
     border: 2px solid var(--color2);
