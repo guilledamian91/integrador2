@@ -364,3 +364,9 @@
 	.margenmenu{
 		margin-top: 100px;
 	}
+
+@media (min-width: 1050px) {
+	.margenmenu{
+		margin-top: 100px;
+	}
+}
