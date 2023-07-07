@@ -1,0 +1,44 @@
+#contentMB{
+	color: white;
+	margin-top: -11%;
+	position: relative;
+	margin-right: 0;
+}
+#iconSvg{
+	width: 50px;
+}
+#contentMB>svg{
+	width: 50px;
+	height: 50px;
+}
+#contentMB>svg>image{
+	width: 50px;
+	height: 50px;
+}
+#mOpciones{
+
+    width: 360px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: -36px;
+    top: 50%;
+    overflow: hidden;
+   	height: 0;
+   	transition: all .5s ease-in-out;
+   	gap:5px;
+
+}
+#mOpciones>a{
+	margin:auto;
+	padding: 5px 0;
+	font-size: 20px;
+}
+.burgerM{
+	display: none;
+}
+.mAbierto{
+	display: block;
+}

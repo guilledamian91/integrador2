@@ -1,0 +1,44 @@
+
+header{
+
+	position: relative;
+	margin-top: 100px;
+	
+}
+.imgHeader{
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background-image: url("../../imgs/pexels-august-de-richelieu-4259140.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: auto;
+    color: white;
+    padding-bottom: 10%;
+
+}
+
+.isotipo{
+	width: 20%;
+}
+
+.imgHeader>div>div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.botonesFlyer{
+	gap:30px;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 480px){
+	.isotipo{
+		width: 40%;
+	}
+	.botonesFlyer{
+		gap:10px;
+	}
+}
+

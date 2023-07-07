@@ -1,0 +1,40 @@
+.muestra{
+	    position: relative;
+    width: 100%;
+    min-width: 100%;
+
+    aspect-ratio: 16/9;
+    flex-shrink: 2;
+    transition: all 1s ease;
+    left: 0px;
+}
+
+#fotosContent{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: initial;
+	overflow-x: hidden;
+	height: 500px;
+	gap:12px;
+
+}
+#fotos{
+	background-color: var(--color2);
+}
+
+@media (max-width: 480px){
+	#fotosContent{
+		overflow: hidden;
+		height: 280px;
+	}
+	.muestra{
+		width: 100%;
+		height: auto;
+		aspect-ratio: 2/1;
+	}
+}
+
+@media (max-width: 360px){
+	
+}

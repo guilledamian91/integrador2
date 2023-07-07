@@ -1,0 +1,69 @@
+footer{
+	min-height: 350px;
+	padding-top: 50px;
+	background-color: var(--color2);
+}
+.alumno{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	gap:20px;
+	align-items: center;
+	margin-top: 10px;
+	color:white;
+}
+.alumno>img	{
+	border-radius: 50%;
+	height: 90%;
+	border: 3px solid white;
+	box-shadow: 0 0 10px white;
+
+}
+.logoGrupo>img{
+	width: 100%;
+}
+
+footer.conteinerRow{
+	margin-left: 175px;
+}
+
+/* MOBILE SURFACE DUO */
+@media (width: 540px) and (height: 720px) {
+	.alumno{
+		margin-bottom: 30px;
+	}
+	
+	}
+	
+	/* MOBILE GALAXY FOLD */
+	@media (width: 280px) and (height: 653px) {
+		.ff,
+		.jb,
+		.gm{
+			margin-bottom: 45px;
+		}
+	
+		article.alumno h2{
+			margin: 0px;
+		}
+
+	
+		}
+
+		.a,
+		.b,
+		.c{
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		.ff,
+		.jb,
+		.gm{
+			margin-top:40px;
+
+
+		}

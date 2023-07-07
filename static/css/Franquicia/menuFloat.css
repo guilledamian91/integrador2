@@ -1,0 +1,54 @@
+.menuFlot{
+	
+	background-color: var(--color2);
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	z-index: 3;
+	transition: all .6s ease;
+	
+
+}
+.menuFlot>div>div>div>.logo{
+	position: relative;
+	height: 50px;
+	transition: all 1s ease;
+	filter: drop-shadow(2px 2px 5px var(--color4));
+	
+}
+
+.menuPaginas{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+
+}
+.menuPaginas a{
+	margin-right: 50px;
+	color: white;
+	transition: all .3s ease;
+	text-decoration: none;
+}
+.menuPaginas a:hover{
+	border-bottom: 5px solid var(--color3);
+}
+
+.pagActual{
+	border-bottom: 5px solid var(--color3);
+}
+
+.menu-smartphone{
+	display: none;
+}
+
+
+
+	button.espacio{
+		margin-bottom: 15px;
+
+	}
+#sidebar{
+	overflow-y: auto;
+}

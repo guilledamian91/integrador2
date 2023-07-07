@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franquicias</title>
+    <link rel="icon" type="image/icon" sizes="32x32" href="{% static './imgs/menu y icon/favicon32x32_mejorado.ico' %}">
+    <link rel="icon" type="image/icon" sizes="16x16" href="{% static './imgs/menu y icon/16x16favicon_mejorado final.ico' %}">
+    <link rel="stylesheet" href="{% static './css/Franquicia/grillas.css' %}"> 
+    <link rel="stylesheet" type="text/css" href="{% static './css/Franquicia/style.css' %}">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="{% static './css/Franquicia/menuFloat.css' %}">
+    <link rel="stylesheet" media="(max-width: 1023px)" href="{% static './css/Franquicia/menu-celulares.css' %}">
+    <link rel="stylesheet" href="{% static './css/Franquicia/footer_ff_gm.css' %}">
+</head>
+
+<body>
+    <nav class="menuFlot">
+        <div class="conteinerRow">
+            <div class="row1">
+                <div class="c1">
+                    <img src="{% static './imgs/logo.png' %}" alt="Logo Inmobiliaria" class="logo " >
+                </div>
+
+              
+                <div class="c3 menuPaginas  ">
+                    <a href="{% url 'index' %}" class=" opMenu">Inicio</a>
+                        <a href="{% url 'comprar' %}" class="opMenu">Comprar</a>
+                       <a href="{% url 'alquilar' %}" class="opMenu">Alquilar</a>
+                       <a href="{% url 'blog' %}" class="opMenu">Blog</a>
+                         <a href="{% url 'franquicia' %}" class="opMenu pagActual">Franquicia</a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menu-smartphone">
+        <div class="c1ABC">    
+            <img src="{% static './imgs/logo.png' %}" alt="Logo Inmobiliaria" class="logo " >
+            <nav class="nav">
+                <img src="{% static './imgs/menu y icon/icons8-menu-rounded-50x50-diseñocorrecto.png' %}" alt="Botón de menú" class="toggle-button">
+              </nav>
+        </div>
+
+        
+       
+        <div class="c3 menuPaginas  menu">
+            <div class="menu-item"><a href="{% url 'index' %}" class=" opMenu">Inicio</a> </div>
+            <div class="menu-item"><a href="{% url 'comprar' %}" class="opMenu">Comprar</a> </div>
+            <div class="menu-item"><a href="{% url 'alquilar' %}" class="opMenu">Alquilar</a> </div>
+            <div class="menu-item"><a href="{% url 'blog' %}" class="opMenu">Blog</a> </div>
+            <div class="menu-item"><a href="{% url 'franquicia' %}" class="opMenu pagActual">Franquicia</a> </div>
+          
+    </div>
+</div>
+
+    <main class="container">
+        <section class="caja" id="nuevaVentanaGarantyHome">
+        <section class="sector" >
+            <a href="https://www.100franquicias.com.ar/franquicias/bienesraices/garanty-home/Franquicia-garanty-home.htm"
+                target="_blank">
+                <img class="ipad" src="{% static './imgs/img_franquicias/400x299 garanty home.jpg' %}" alt="Sushi">
+            </a>
+        </section>
+            <section class="garanty home" >
+            <p>Garanty Home es una franquicia inmobiliaria que tiene como objetivo dar plena seguridad y confianza tanto
+                al propietario como al inquilino en las operaciones de arrendamiento y compra-venta. Fruto de la
+                experiencia de más de 25 años, creada y dirigida por Abogados y APIs.</p>
+        </section>
+    </section>
+
+
+    <section class="caja" id="nuevaVentanaRemax" >
+        <section class="sector" >
+            <a href="https://www.100franquicias.com.ar/franquicias/bienesraices/remax-argentina/Franquicia-remax-argentina.htm"
+                target="_blank">
+                <img src="{% static './imgs/img_franquicias/400x400 remax logo redondo-jpg.jpg' %}" alt="Franquicia Remax">
+            </a>
+        </section>
+            <section class="garanty home" >
+            <p>Remax Argentina presenta un modelo de negocio diferente dentro del mercado inmobiliario, con un concepto consolidado en más de 90 países. En Argentina, la compañía internacional cuenta con una red consolidad con más de 2.000 agentes que operan en un total de 29 ciudades.
+                </p>
+            <p>El modelode negocio de Remax Argentina está sobradamente probado y depurado, y se caracteriza pone su espíritu innovador y su fuertes estructuración que es garantía de confianza y saber hacer, y que se acaba filtrando en la satisfacción de sus clientes y clientas.
+               </p>
+            </section>
+    </section>
+
+        <section class="banco">
+            <section class="titulo prestamo">
+            <span ><h2 class="palabra" >Préstamos</h2></span>
+        </section>
+            <a href="https://www.bna.com.ar/Personas/naciondestinolibre" target="_blank">
+                <img class="banco-nacion" src="{% static './imgs/img_bancos/650x148-Banco_Nación.jpg' %}"  alt="Préstamo Banco Nacion">
+            </a>
+            <a href="https://www.supervielle.com.ar/personas/prestamos/personales" target="_blank">
+               
+                <img class="banco-supervielle" src="{% static './imgs/img_bancos/350x198 banco-supervielle-logo-2018-gerentes-cba-medium-size.jpg' %}"  
+                alt="Prestamo Supervielle">
+            </a>
+        </section>
+    </main>
+
+    <footer style=" border-top: 1px solid  #e5e5e5;">
+		<div class="conteinerRow">
+              <div class="row1">
+                <div class="c2">
+                  <article class="alumno gm">
+                    <img src="{% static './imgs/hombre.png' %}" alt="Agente Inmobiliario">
+                    <h2 class="a">Guillermo Perez Maidana</h2>
+                  </article>
+                  <article class="alumno ff">
+                    <img src="{% static './imgs/hombre (2).png' %}" alt="Agente Inmobiliario">
+                    <h2 class="b">Francisco N. Fonseca</h2>
+                  </article>
+                  <article class="alumno jb">
+                    <img src="{% static './imgs/hombre (3).png' %}" alt="Agente Inmobiliario">
+                    <h2 class="c">Juan Becerra</h2>
+                  </article>
+                </div>
+                <div class="c2 logoGrupo">
+                  <img src="{% static './imgs/logoG19.png' %}" alt="">
+                </div>
+              </div>
+            </div>
+	</footer>
+    <script src="{% static './js/Franquicia/contenedorclikeable.js' %}"></script>
+    <script src="{% static './js/Franquicia/botonmenu.js' %}"></script>
+
+</body>
+</html>
+
+
